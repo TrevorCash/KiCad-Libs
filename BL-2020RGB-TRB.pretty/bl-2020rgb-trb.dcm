@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BL-2020RGB-TRB
+D 2mm RGB LED SPI
+K LED RGB SPI
+F http://americanbrightled.com/pdffiles/ezyLED/BL-2020RGB-TRB.pdf
+$ENDCMP
+#
+#End Doc Library
