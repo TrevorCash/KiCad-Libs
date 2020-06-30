@@ -12,6 +12,12 @@ K POWER REGUL
 F regulator\lm78lxx.pdf
 $ENDCMP
 #
+$CMP LED_RGBC_KINGBRIGHT
+D RGB LED, red/green/blue/cathode
+K LED RGB diode
+F ~
+$ENDCMP
+#
 $CMP LM7805
 D Linear Regulator +5V
 K POWER REGUL
