@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MCP4361-103E/ST
+D MCP4361-103E/ST
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22233a.pdf
+$ENDCMP
+# end doc library

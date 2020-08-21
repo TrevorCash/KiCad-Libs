@@ -1,0 +1,52 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Microchip MCP4361-103E/ST
+#
+DEF MCP4361-103E_ST U 0 40 Y Y 1 L N
+F0 "U" 0 200 50 H V L CNN 
+F1 "MCP4361-103E/ST" 0 300 50 H V L CNN 
+F2 "Microchip-MCP4361-103E_ST-*" 0 400 50 H I L CNN 
+F3 "http://ww1.microchip.com/downloads/en/DeviceDoc/22233a.pdf" 0 500 50 H I L CNN 
+F4 "MO-153-AC" 0 600 50 H I L CNN "Code  JEDEC"
+F5 "Manufacturer URL" 0 700 50 H I L CNN "Component Link 1 Description"
+F6 "http://www.microchip.com/" 0 800 50 H I L CNN "Component Link 1 URL"
+F7 "Package Specification" 0 900 50 H I L CNN "Component Link 3 Description"
+F8 "http://www.microchip.com/stellent/groups/techpub_sg/documents/packagingspec/en012702.pdf" 0 1000 50 H I L CNN "Component Link 3 URL"
+F9 "revA, Dec-2009" 0 1100 50 H I L CNN "Datasheet Version"
+F10 "20-Lead Plastic Thin Shrink Small Outline (ST) - 4.4mm Body [TSSOP]" 0 1200 50 H I L CNN "Package Description"
+F11 "revBB, Aug-2009" 0 1300 50 H I L CNN "Package Version"
+F12 "IC" 0 1400 50 H I L CNN "category"
+F13 "964913" 0 1500 50 H I L CNN "ciiva ids"
+F14 "07b18fe5e46b6cf4" 0 1600 50 H I L CNN "library id"
+F15 "Microchip" 0 1700 50 H I L CNN "manufacturer"
+F16 "TSSOP-ST20" 0 1800 50 H I L CNN "package"
+F17 "1331948635" 0 1900 50 H I L CNN "release date"
+F18 "A9AE9D77-DFC0-4E2E-83EC-4C3F510EE245" 0 2000 50 H I L CNN "vault revision"
+F19 "yes" 0 2100 50 H I L CNN "imported"
+DRAW
+X P3A 1 1000 0 100 L 40 40 1 1 P 
+X P3W 2 1000 -100 100 L 40 40 1 1 P 
+X P3B 3 1000 -200 100 L 40 40 1 1 P 
+X ~CS~ 4 0 0 100 R 40 40 1 1 I 
+X SCK 5 0 -500 100 R 40 40 1 1 I C
+X SDI 6 0 -600 100 R 40 40 1 1 I 
+X VSS 7 1000 -1600 100 L 40 40 1 1 W 
+X P1B 8 1000 -800 100 L 40 40 1 1 P 
+X P1W 9 1000 -900 100 L 40 40 1 1 P 
+X P1A 10 1000 -1000 100 L 40 40 1 1 P 
+X P0A 11 1000 -1200 100 L 40 40 1 1 P 
+X P0W 12 1000 -1300 100 L 40 40 1 1 P 
+X P0B 13 1000 -1400 100 L 40 40 1 1 P 
+X ~WP~ 14 0 -300 100 R 40 40 1 1 I 
+X ~RESET~ 15 0 -100 100 R 40 40 1 1 I 
+X SDO 16 0 -700 100 R 40 40 1 1 O 
+X VDD 17 0 -1600 100 R 40 40 1 1 W 
+X P2B 18 1000 -400 100 L 40 40 1 1 P 
+X P2W 19 1000 -500 100 L 40 40 1 1 P 
+X P2A 20 1000 -600 100 L 40 40 1 1 P 
+S 100 100 900 -1700 1 1 0 f
+ENDDRAW
+ENDDEF
+#
+# End Library
