@@ -1,0 +1,48 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Texas Instruments UCC283TDKTTT-5
+#
+DEF UCC283TDKTTT-5 U 0 40 Y Y 1 L N
+F0 "U" 0 200 50 H V L CNN 
+F1 "UCC283TDKTTT-5" 0 300 50 H V L CNN 
+F2 "Texas_Instruments-UCC283TDKTTT-5-*" 0 400 50 H I L CNN 
+F3 "http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=UCC283-5&fileType=pdf" 0 500 50 H I L CNN 
+F4 "2.5" 0 600 50 H I L CNN "Accuracy"
+F5 "TO-263" 0 700 50 H I L CNN "Code  JEDEC"
+F6 "Manufacturer URL" 0 800 50 H I L CNN "Component Link 1 Description"
+F7 "http://www.ti.com/" 0 900 50 H I L CNN "Component Link 1 URL"
+F8 "Package Specification" 0 1000 50 H I L CNN "Component Link 3 Description"
+F9 "http://www.ti.com/litv/pdf/mpsf006e" 0 1100 50 H I L CNN "Component Link 3 URL"
+F10 "SLUS215B" 0 1200 50 H I L CNN "Datasheet Version"
+F11 "5" 0 1300 50 H I L CNN "Fixed Output OptionsV"
+F12 "3" 0 1400 50 H I L CNN "Iout Max A"
+F13 "0.4" 0 1500 50 H I L CNN "Iq Typm A"
+F14 "Surface Mount" 0 1600 50 H I L CNN "Mounting Technology"
+F15 "3-Pin Plastic Flange Mount, Body 10.16 x 10.43 mm, Pitch 2.54 mm" 0 1700 50 H I L CNN "Package Description"
+F16 "4200577-2/F" 0 1800 50 H I L CNN "Package Version"
+F17 "Single Channel LDO" 0 1900 50 H I L CNN "Sub Family"
+F18 "400" 0 2000 50 H I L CNN "Vdo Typm V"
+F19 "9" 0 2100 50 H I L CNN "Vin Max V"
+F20 "5.4" 0 2200 50 H I L CNN "Vin Min V"
+F21 "5" 0 2300 50 H I L CNN "Vout AdjMaxV"
+F22 "5" 0 2400 50 H I L CNN "Vout AdjMinV"
+F23 "IC" 0 2500 50 H I L CNN "category"
+F24 "1498180" 0 2600 50 H I L CNN "ciiva ids"
+F25 "1d8a7445395b6422" 0 2700 50 H I L CNN "library id"
+F26 "Texas Instruments" 0 2800 50 H I L CNN "manufacturer"
+F27 "KTT0003A" 0 2900 50 H I L CNN "package"
+F28 "1464585859" 0 3000 50 H I L CNN "release date"
+F29 "Yes" 0 3100 50 H I L CNN "rohs"
+F30 "092F3120-C98C-4E3F-B799-B6D8F0822478" 0 3200 50 H I L CNN "vault revision"
+F31 "yes" 0 3300 50 H I L CNN "imported"
+DRAW
+X VIN 1 0 0 100 R 40 40 1 1 W 
+X VOUT 3 800 0 100 L 40 40 1 1 W 
+X GND 2 500 -300 100 U 40 40 1 1 W 
+X TAB 4 300 -300 100 U 40 40 1 1 W 
+S 100 100 700 -200 1 1 0 f
+ENDDRAW
+ENDDEF
+#
+# End Library
