@@ -1,0 +1,49 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Texas Instruments TL1963A-33DCQT
+#
+DEF TL1963A-33DCQT U 0 40 Y Y 1 L N
+F0 "U" 0 200 50 H V L CNN 
+F1 "TL1963A-33DCQT" 0 300 50 H V L CNN 
+F2 "Texas_Instruments-TL1963A-33DCQT-*" 0 400 50 H I L CNN 
+F3 "http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=TL1963A-33&fileType=pdf" 0 500 50 H I L CNN 
+F4 "3" 0 600 50 H I L CNN "Accuracy"
+F5 "Manufacturer URL" 0 700 50 H I L CNN "Component Link 1 Description"
+F6 "http://www.ti.com/" 0 800 50 H I L CNN "Component Link 1 URL"
+F7 "Package Specification" 0 900 50 H I L CNN "Component Link 3 Description"
+F8 "http://www.ti.com/litv/pdf/mpds098c" 0 1000 50 H I L CNN "Component Link 3 URL"
+F9 "SLVS719F" 0 1100 50 H I L CNN "Datasheet Version"
+F10 "3.3" 0 1200 50 H I L CNN "Fixed Output OptionsV"
+F11 "1.5" 0 1300 50 H I L CNN "Iout Max A"
+F12 "1" 0 1400 50 H I L CNN "Iq Typm A"
+F13 "Surface Mount" 0 1500 50 H I L CNN "Mounting Technology"
+F14 "6-Pin Plastic Small Outline, Body 3.5 x 6.5 mm, Pitch 1.27 mm" 0 1600 50 H I L CNN "Package Description"
+F15 "4202109/D" 0 1700 50 H I L CNN "Package Version"
+F16 "Single Channel LDO" 0 1800 50 H I L CNN "Sub Family"
+F17 "340" 0 1900 50 H I L CNN "Vdo Typm V"
+F18 "20" 0 2000 50 H I L CNN "Vin Max V"
+F19 "2.1" 0 2100 50 H I L CNN "Vin Min V"
+F20 "3.3" 0 2200 50 H I L CNN "Vout AdjMaxV"
+F21 "3.3" 0 2300 50 H I L CNN "Vout AdjMinV"
+F22 "IC" 0 2400 50 H I L CNN "category"
+F23 "1507563" 0 2500 50 H I L CNN "ciiva ids"
+F24 "eef8d58c19fa1149" 0 2600 50 H I L CNN "library id"
+F25 "Texas Instruments" 0 2700 50 H I L CNN "manufacturer"
+F26 "DCQ0006A" 0 2800 50 H I L CNN "package"
+F27 "1464600049" 0 2900 50 H I L CNN "release date"
+F28 "Yes" 0 3000 50 H I L CNN "rohs"
+F29 "AC617D8A-FEB7-4110-B943-0E51A30CE516" 0 3100 50 H I L CNN "vault revision"
+F30 "yes" 0 3200 50 H I L CNN "imported"
+DRAW
+X GND 3 500 -500 100 U 40 40 1 1 W 
+X GND 6 700 -500 100 U 40 0 1 1 W 
+X ~SHDN~ 1 100 -200 100 R 40 40 1 1 I 
+X IN 2 100 0 100 R 40 40 1 1 W 
+X OUT 4 1100 0 100 L 40 40 1 1 W 
+X SENSE 5 1100 -200 100 L 40 40 1 1 I 
+S 200 100 1000 -400 1 1 0 f
+ENDDRAW
+ENDDEF
+#
+# End Library
