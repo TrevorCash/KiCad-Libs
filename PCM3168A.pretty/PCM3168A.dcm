@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PCM3168APAP
+D PCM3168APAP
+F http://www.ti.com/lit/ds/symlink/pcm3168a.pdf
+$ENDCMP
+# end doc library
