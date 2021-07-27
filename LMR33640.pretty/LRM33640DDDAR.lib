@@ -1,0 +1,54 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Texas Instruments LMR33640DDDAR
+#
+DEF LMR33640DDDAR U 0 40 Y Y 1 L N
+F0 "U" 0 200 50 H V L CNN 
+F1 "LMR33640DDDAR" 0 300 50 H V L CNN 
+F2 "Texas_Instruments-DDA0008J-0-0-*" 0 400 50 H I L CNN 
+F3 "https://www.ti.com/lit/ds/symlink/lmr33640.pdf" 0 500 50 H I L CNN 
+F4 "No" 0 600 50 H I L CNN "automotive"
+F5 "IC" 0 700 50 H I L CNN "category"
+F6 "Integrated Circuits (ICs)" 0 800 50 H I L CNN "device class L1"
+F7 "Power Management ICs" 0 900 50 H I L CNN "device class L2"
+F8 "Voltage Regulators - Switching" 0 1000 50 H I L CNN "device class L3"
+F9 "36V 4A 1MKZ REGULATOR" 0 1100 50 H I L CNN "digikey description"
+F10 "296-LMR33640DDDARCT-ND" 0 1200 50 H I L CNN "digikey part number"
+F11 "1.7mm" 0 1300 50 H I L CNN "height"
+F12 "Yes" 0 1400 50 H I L CNN "lead free"
+F13 "1a8e217e1ee00890" 0 1500 50 H I L CNN "library id"
+F14 "Texas Instruments" 0 1600 50 H I L CNN "manufacturer"
+F15 "98%" 0 1700 50 H I L CNN "max duty cycle"
+F16 "+150°C" 0 1800 50 H I L CNN "max junction temp"
+F17 "36V" 0 1900 50 H I L CNN "max supply voltage"
+F18 "3.8V" 0 2000 50 H I L CNN "min supply voltage"
+F19 "SIMPLE SWITCHER Synchronous Step-Down Converter 3.8V to 36V Input 4A 8-Pin SO PowerPAD T/R" 0 2100 50 H I L CNN "mouser description"
+F20 "595-LMR33640DDDAR" 0 2200 50 H I L CNN "mouser part number"
+F21 "24uA" 0 2300 50 H I L CNN "nominal supply current"
+F22 "1" 0 2400 50 H I L CNN "number of outputs"
+F23 "4A" 0 2500 50 H I L CNN "output current"
+F24 "AdjustableProgrammable" 0 2600 50 H I L CNN "output type"
+F25 "1-24V" 0 2700 50 H I L CNN "output voltage"
+F26 "HSOIC8" 0 2800 50 H I L CNN "package"
+F27 "Yes" 0 2900 50 H I L CNN "rohs"
+F28 "0mm" 0 3000 50 H I L CNN "standoff height"
+F29 "1000kHz" 0 3100 50 H I L CNN "switching frequency"
+F30 "Buck" 0 3200 50 H I L CNN "switching topology"
+F31 "+125°C" 0 3300 50 H I L CNN "temperature range high"
+F32 "-40°C" 0 3400 50 H I L CNN "temperature range low"
+DRAW
+X VCC 6 100 -600 100 R 40 40 1 1 P 
+X VIN 2 100 0 100 R 40 40 1 1 W 
+X BOOT 7 1500 0 100 L 40 40 1 1 P 
+X EN 3 100 -200 100 R 40 40 1 1 I 
+X FB 5 1500 -400 100 L 40 40 1 1 P 
+X PG 4 1500 -600 100 L 40 40 1 1 C 
+X SW 8 1500 -200 100 L 40 40 1 1 P 
+X PGND 1 1500 -800 100 L 40 40 1 1 W 
+X THERMAL_PAD 9 1500 -900 100 L 40 40 1 1 W 
+S 200 100 1400 -1000 1 1 0 f
+ENDDRAW
+ENDDEF
+#
+# End Library
