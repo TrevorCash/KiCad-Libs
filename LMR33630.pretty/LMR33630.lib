@@ -1,0 +1,54 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Texas instrument LMR33630CDDA
+#
+DEF LMR33630CDDA U 0 40 Y Y 1 L N
+F0 "U" 0 200 50 H V L CNN 
+F1 "LMR33630CDDA" 0 300 50 H V L CNN 
+F2 "Texas_instrument-DDA0008J-0-0-*" 0 400 50 H I L CNN 
+F3 "https://www.ti.com/lit/ds/symlink/lmr33630.pdf?&ts=1589234853266" 0 500 50 H I L CNN 
+F4 "No" 0 600 50 H I L CNN "automotive"
+F5 "IC" 0 700 50 H I L CNN "category"
+F6 "Integrated Circuits (ICs)" 0 800 50 H I L CNN "device class L1"
+F7 "Power Management ICs" 0 900 50 H I L CNN "device class L2"
+F8 "Voltage Regulators - Switching" 0 1000 50 H I L CNN "device class L3"
+F9 "IC REG BUCK ADJUSTABLE 3A 8SOPWR" 0 1100 50 H I L CNN "digikey description"
+F10 "296-48846-ND" 0 1200 50 H I L CNN "digikey part number"
+F11 "1.7mm" 0 1300 50 H I L CNN "height"
+F12 "Yes" 0 1400 50 H I L CNN "lead free"
+F13 "ab33e1d5fda23c81" 0 1500 50 H I L CNN "library id"
+F14 "Texas instrument" 0 1600 50 H I L CNN "manufacturer"
+F15 "98%" 0 1700 50 H I L CNN "max duty cycle"
+F16 "+125°C" 0 1800 50 H I L CNN "max junction temp"
+F17 "36V" 0 1900 50 H I L CNN "max supply voltage"
+F18 "3.8V" 0 2000 50 H I L CNN "min supply voltage"
+F19 "SIMPLE SWITCHER® 3.8V to 36V, 3A Synchronous Buck Converter With Ultra-Low EMI 8-SO PowerPAD -40 to 125" 0 2100 50 H I L CNN "mouser description"
+F20 "595-LMR33630CDDA" 0 2200 50 H I L CNN "mouser part number"
+F21 "24uA" 0 2300 50 H I L CNN "nominal supply current"
+F22 "1" 0 2400 50 H I L CNN "number of outputs"
+F23 "3A" 0 2500 50 H I L CNN "output current"
+F24 "AdjustableProgrammable" 0 2600 50 H I L CNN "output type"
+F25 "1-24V" 0 2700 50 H I L CNN "output voltage"
+F26 "SOIC8" 0 2800 50 H I L CNN "package"
+F27 "Yes" 0 2900 50 H I L CNN "rohs"
+F28 "0mm" 0 3000 50 H I L CNN "standoff height"
+F29 "2.1MHz" 0 3100 50 H I L CNN "switching frequency"
+F30 "Buck" 0 3200 50 H I L CNN "switching topology"
+F31 "+125°C" 0 3300 50 H I L CNN "temperature range high"
+F32 "-40°C" 0 3400 50 H I L CNN "temperature range low"
+DRAW
+X VCC 6 100 0 100 R 40 40 1 1 W 
+X VIN 2 100 -100 100 R 40 40 1 1 W 
+X BOOT 7 1800 0 100 L 40 40 1 1 W 
+X EN 3 100 -300 100 R 40 40 1 1 P 
+X FB 5 1800 -600 100 L 40 40 1 1 P 
+X PG 4 1800 -400 100 L 40 40 1 1 P 
+X SW 8 1800 -200 100 L 40 40 1 1 P 
+X PGND 1 1800 -900 100 L 40 40 1 1 W 
+X THERMAL_PAD 9 1800 -800 100 L 40 40 1 1 W 
+S 200 100 1700 -1000 1 1 0 f
+ENDDRAW
+ENDDEF
+#
+# End Library

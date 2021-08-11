@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LMR33630CDDA
+D LMR33630CDDA
+F https://www.ti.com/lit/ds/symlink/lmr33630.pdf?&ts=1589234853266
+$ENDCMP
+# end doc library
