@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DRV8313PWP
+D DRV8313PWP
+F http://www.ti.com/lit/ds/symlink/drv8313.pdf
+$ENDCMP
+# end doc library
