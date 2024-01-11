@@ -37,4 +37,9 @@
   (pad "4" thru_hole circle (at 3.75 10) (size 2 2) (drill 1.2) (layers "*.Cu" "*.Mask") (tstamp 0d322c12-bf1a-455f-ab49-52999070aa78))
   (pad "5" thru_hole rect (at -5.5 0) (size 3 3) (drill 2.1) (layers "*.Cu" "*.Mask") (tstamp e98b0cfb-b0c3-4864-8efb-b25cb8624b62))
   (pad "6" thru_hole rect (at 5.5 0) (size 3 3) (drill 2.1) (layers "*.Cu" "*.Mask") (tstamp ec2fcf0d-d36e-4b1e-a902-b63ca8180037))
+  (model "${LOCALREPO}/RV112FF.pretty/RV112FF.pretty/RV112FF-40B1-15F-0B20K-0068.stp"
+    (offset (xyz 0 0 7))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
+  )
 )
