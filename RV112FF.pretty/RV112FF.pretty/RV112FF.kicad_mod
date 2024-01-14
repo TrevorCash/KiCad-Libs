@@ -1,7 +1,7 @@
 (footprint "RV112FF" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (attr through_hole)
-  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 0.125 -2.775 unlocked) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 9b9a20b5-af3b-4d94-9878-af0ff157a4bf)
   )
