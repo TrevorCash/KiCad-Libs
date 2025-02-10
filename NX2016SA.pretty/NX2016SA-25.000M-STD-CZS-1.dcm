@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NX2016SA-25.000M-STD-CZS-1
+D Crystals CRYSTAL 25MHZ 8PF SMD
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/DKDS-17/332064.pdf
+$ENDCMP
+#
+#End Doc Library
